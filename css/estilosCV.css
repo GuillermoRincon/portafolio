@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100vw;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.padre {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.header {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.menu {
+  background: #2d4059;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  border-bottom: 1px solid rgb(195, 195, 195);
+}
+
+.menu a {
+  margin: 0px 30px;
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: #fff;
+}
+
+.logo {
+  flex: 5 1 auto;
+  margin: 15px;
+}
+
+.logo img {
+  height: 50px;
+  border-radius: 50%;
+}
+
+.nav {
+  flex: 1 1 auto;
+}
+
+.nav i {
+  margin-right: 15px;
+}
+
+.texto-principal {
+  height: 800px;
+  display: flex;
+  align-items: center;
+}
+
+/*---- cuerpo---*/
+
+.container {
+  position: relative;
+  height: 100vh;
+  width: auto;
+}
+
+.container .section {
+  position: relative;
+  height: 100vh;
+  background-blend-mode: multiply;
+  border-bottom: 3px solid #2d4059;
+}
+
+.container .section:nth-child(1) {
+  background: url(../img/bg02.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.container .section:nth-child(3) {
+  background: url(../img/bg07.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.container .section:nth-child(4) {
+  background: url(../img/bg09.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.container .section:nth-child(5) {
+  background: url(../img/web03.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.container .section:nth-child(6) {
+  background: #40405f url(../img/bg14.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.container .section .content {
+  position: absolute;
+  bottom: 70px;
+  left: 50px;
+  max-width: 700px;
+}
+
+.container .section .content h2 {
+  background: rgba(255, 255, 255, 0.452);
+  color: #111;
+  font-weight: 600;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 2.5rem;
+  border-radius: 5px;
+}
+.container .section .content p {
+  background: rgba(255, 255, 255, 0.452);
+  color: #111;
+  font-weight: 500;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1.7rem;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.container1 {
+  justify-content: center;
+  align-items: center;
+  margin: 2%;
+}
+
+.container1 .section1 .content1 h1 {
+  text-align: center;
+  font-size: 70px;
+}
+.footer {
+  background: #000;
+  margin-top: -40px;
+}
+
+.pie {
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  margin-top: 40px;
+  padding: 40px 0px;
+  background-color: #1f1f22;
+}
+
+.footer .pie .copy {
+  font-size: 1.5rem;
+}
