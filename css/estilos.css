@@ -156,6 +156,7 @@ section .experiencia {
 }
 
 .container {
+  margin-top: -80px;
   background: #000000;
   background-size: cover;
   min-height: 100vh;
