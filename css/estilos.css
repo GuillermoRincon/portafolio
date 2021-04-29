@@ -273,3 +273,17 @@ section .experiencia {
     background-color: #ffae00;
   }
 }
+
+/* ----- Portafolio ----- */
+
+container .video {
+  display: flex;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.player {
+  width: 50%;
+
+  align-items: center;
+}
