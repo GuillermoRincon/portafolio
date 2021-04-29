@@ -87,6 +87,10 @@ body {
   transition: 0.5s;
 }
 
+.nav .links li i:active {
+  color: #ffae00;
+}
+
 /* --- ABOUT --- */
 
 .nav1 {
