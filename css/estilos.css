@@ -152,10 +152,6 @@ section h2 {
   margin: 40px 0px 20px 0px;
 }
 
-/* section p {
-  /* margin-bottom: 100px; 
-} */
-
 section .experiencia {
   margin-bottom: -100px;
 }
@@ -276,14 +272,21 @@ section .experiencia {
 
 /* ----- Portafolio ----- */
 
+.encabezado h2 {
+  text-align: center;
+  font-size: 3rem;
+  color: #ffae00;
+  margin: 50px 0;
+}
+
 container .video {
   display: flex;
   width: 50%;
   margin: 0 auto;
 }
 
-.player {
-  width: 50%;
-
+.video .player {
+  display: block;
+  margin: 0 auto;
   align-items: center;
 }
