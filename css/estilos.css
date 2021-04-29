@@ -56,6 +56,10 @@ body {
   transition: 0.5s;
 }
 
+.nav a:active {
+  color: #ffae00;
+}
+
 .nav .links {
   display: flex;
   margin-left: 50px;
