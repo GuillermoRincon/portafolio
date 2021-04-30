@@ -21,7 +21,20 @@ body {
   align-items: center;
 }
 
+.name {
+  font-size: 2rem;
+  display: block;
+  letter-spacing: 5px;
+  text-decoration: underline;
+  li
+}
+
+.name h1 {
+  color: 3268cd
+}
+
 .hero h1 {
+  display: block;
   margin-left: 70px;
   font-size: 3rem;
   border-left: 5px solid #3268cd;
