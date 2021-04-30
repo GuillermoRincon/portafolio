@@ -26,11 +26,10 @@ body {
   display: block;
   letter-spacing: 5px;
   text-decoration: underline;
-  li
 }
 
 .name h1 {
-  color: 3268cd
+  color: 3268cd;
 }
 
 .hero h1 {
