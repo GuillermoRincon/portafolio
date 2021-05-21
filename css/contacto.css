@@ -127,13 +127,22 @@ body {
   margin-right: 15px;
 }
 
-.container .contactInfo .box .text {
+.container .contactInfo .box .text,
+.container .contactInfo .box .text a {
   display: flex;
   font-size: 16px;
   color: #fff;
   flex-direction: column;
   font-weight: 300;
 }
+
+.container .contactinfo .box .text a {
+  text-decoration: none;
+}
+
+/* .container .contactinfo .box .text a:visited {
+  text-decoration: none;
+} */
 
 .container .contactInfo .box .text h3 {
   color: #ffae00;
