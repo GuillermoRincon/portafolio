@@ -125,6 +125,11 @@ body {
   border-radius: 50%;
   font-size: 22px;
   margin-right: 15px;
+  transition: 0.5s;
+}
+
+.container .contactInfo .box .icon:hover {
+  transform: rotate(360deg);
 }
 
 .container .contactInfo .box .text,
@@ -202,8 +207,8 @@ body {
 
 .contactForm .inputBox input[type="submit"] {
   width: 100px;
-  background: #ffae00;
-  color: #333;
+  background: #3268cd;
+  color: #fff;
   border: none;
   cursor: pointer;
   padding: 10px;
@@ -211,18 +216,9 @@ body {
   border-radius: 4px;
 }
 
-@media (max-width: 991px) {
-  .contact {
-    padding: 50px;
-  }
-  .container {
-    flex-direction: column;
-  }
-  .container .contactInfo,
-  .contactForm {
-    margin-bottom: 40px;
-    width: 100%;
-  }
+.contactForm .inputBox input[type="submit"]:hover {
+  background: #ffae00;
+  color: #333;
 }
 
 .footer {
@@ -244,6 +240,13 @@ body {
   color: #3268cd;
   text-align: center;
   margin: 0 40px;
+  transition: 0.5s;
+}
+
+.footer .social a:hover {
+  color: #ffae00;
+  font-size: 35px;
+  transform: scale(1.2);
 }
 
 .footer .copy {
@@ -266,4 +269,18 @@ body {
   font-size: 12px;
   font-weight: 400;
   margin-left: 5px;
+}
+
+@media (max-width: 991px) {
+  .contact {
+    padding: 50px;
+  }
+  .container {
+    flex-direction: column;
+  }
+  .container .contactInfo,
+  .contactForm {
+    margin-bottom: 40px;
+    width: 100%;
+  }
 }
