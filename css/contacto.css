@@ -224,3 +224,46 @@ body {
     width: 100%;
   }
 }
+
+.footer {
+  display: flex;
+  height: 80px;
+  width: 100%;
+  background: #1a1a1a;
+}
+
+.footer .social {
+  display: flex;
+  width: 50%;
+  font-size: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer .social a {
+  color: #3268cd;
+  text-align: center;
+  margin: 0 40px;
+}
+
+.footer .copy {
+  width: 50%;
+  color: #3268cd;
+  font-size: 12px;
+  text-align: center;
+  padding: 15px;
+}
+
+.footer .copy .cr {
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.footer .copy .name {
+  color: #ffae00;
+  font-size: 12px;
+  font-weight: 400;
+  margin-left: 5px;
+}
