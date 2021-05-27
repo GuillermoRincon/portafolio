@@ -5,7 +5,7 @@ btn.addEventListener("click", () => {
     Host: "smtp.gmail.com",
     Username: "guillermorincon@gmail.com",
     Password: "Sofy10141",
-    To: "xyz@gm.com",
+    To: "guillermorincon@gmail.com",
     From: inputs.elements["email"].value,
     subject: "Correo desde mi Portafolio",
     Body:
